@@ -14,8 +14,6 @@ public class Prices {
         avg = sum/ prices.length;
         System.out.println("The avg is : "  + avg);
 
-        System.out.println("\n");
-
         //2
         System.out.println("The values below 5 are : ");
         for(double y : prices){ // Enhanced for loop can be read as "in".
@@ -29,6 +27,13 @@ public class Prices {
                 System.out.println(z);
             }
         }
+            //5
+            System.out.println("The values above avg are : ");
+            for( double r : prices){
+                if(r > avg){
+                    System.out.println(r);
+                }
+            }
 }
 }
 }
