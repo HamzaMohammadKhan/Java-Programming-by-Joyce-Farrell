@@ -11,4 +11,8 @@ public class Event {
         guestString = JOptionPane.showInputDialog(null,"Enter the number of guests at event ");
         eventGuests = Integer.parseInt(guestString);
     }
+    public void displayPricingInfo()
+    {
+        JOptionPane.showMessageDialog(null,"Events cost $100 per hour \n" + "There is a three-hour minimum");
+    }
 }
