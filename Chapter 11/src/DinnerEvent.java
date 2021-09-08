@@ -16,4 +16,8 @@ public class DinnerEvent {
         choice = JOptionPane.showInputDialog(null,"Enter dinner choice \n 1. for beef \n 2. for chicken");
         dinnerChoice = Integer.parseInt(choice);
     }
+    public void displayPricingInfo()
+    {
+        JOptionPane.showMessageDialog(null,"Dinner events cost $85 per hour\n " + "Plus the cost of the meals\n" + "There is a four-hour minimum");
+    }
 }
