@@ -11,6 +11,9 @@ public class UseSimpleEvent {
 
         obj2.displayDinnerChoice();
         obj2.displayGuestsEvents();
+        
+         obj1.displayPricingInfo();
+        obj2.displayPricingInfo();
         System.exit(0);
     }
     }
