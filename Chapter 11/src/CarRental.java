@@ -7,7 +7,10 @@ public class CarRental {
         private double totalrentalFee;
 
         CarRental(String Rn, int Zr, int Cr,double Rf){
-            RentalName = Rn;
+           RentalName = Rn;
+            zipCodeRented = Zr;
+            carSizeRented = Cr;
+            
 
         }
     }
